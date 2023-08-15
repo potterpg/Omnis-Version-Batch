@@ -1,0 +1,6 @@
+# Omnis-Version-Batch
+A Batch file to determine the version of an Omnis library that has been dropped on it, within windows.
+
+Kelly Burgess wrote a droplet to do this very thing on Mac computers...
+
+I thought I'd recreate it for windows machines...
