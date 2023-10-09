@@ -43,6 +43,8 @@ IF             %byte1:~-2% == 44 (
 				set dialogMsg= "%~1  is a Studio 10.2.x library."
 ) ELSE IF %byte1:~-2% == 57 (
 				set dialogMsg= "%~1 is a Studio 11.0.x library."
+) ELSE IF %byte1:~-2% == 60 (
+				set dialogMsg= "%~1 is a later Studio 11.0.x library."
 ) ELSE ( set dialogMsg= "%~1 is not known." )
 
 IF %byte3:~-2% == 01 ( set "dialogMsg= %dialogMsg% (Unicode)" )
